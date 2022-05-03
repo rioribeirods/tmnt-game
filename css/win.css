@@ -1,0 +1,23 @@
+.container {
+    background-image: url(../assets/win.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.subtitle {
+    display: flex;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    justify-content: center;
+    font-size: 42px;
+}
+p.title {
+    margin-top: 30rem;
+}
