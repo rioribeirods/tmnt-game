@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TMNT Game</title>
+    <script src="../js/game.js"></script>
     <link rel="stylesheet" href="../css/donatello.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +14,11 @@
 <body class="container">
     <div>
         <h2 class="subtitle">Destruidor corre em sua direção</h2>
-        <h2 class="subtitle">Escolha sua próxima ação:</h2>
+        <button id="button" onclick="chooseAnswer('Escolha a opção 1 ou 2.', '1', './win.html', '2', './donatelloGOP3.html') "  class="subtitle">Escolha sua próxima ação:</button>
     </div>
     <div class="option-table">
-        <p class="option">Defender-se rodando o bastão</p>
-        <p class="option">Aguardar em base máscula</p>
+        <p class="option">1. Defender-se rodando o bastão</p>
+        <p class="option">2. Aguardar em base máscula</p>
     </div>
     <div class="body-image">
     <figure>

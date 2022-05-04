@@ -41,3 +41,7 @@
     width: 600px;
     height: 400px;
 }
+button {
+    display: flex;
+    margin-left: 43rem;
+}
